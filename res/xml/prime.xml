@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2022
+    SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/primeelements_title">
+
+    <!-- Themes -->
+    <com.prime.settings.preferences.PrimePreference
+        android:key="themes_category"
+        android:title="@string/themes_title"
+        android:fragment="com.prime.settings.fragments.Themes"
+        android:icon="@drawable/ic_themes" />
+
+    <!-- Lock screen -->
+    <com.prime.settings.preferences.PrimePreference
+        android:key="lockscreen_category"
+        android:title="@string/lockscreen_title"
+        android:fragment="com.prime.settings.fragments.LockScreen"
+        android:icon="@drawable/ic_lockscreen" />
+
+    <!-- Status bar -->
+    <com.prime.settings.preferences.PrimePreference
+        android:key="statusbar_category"
+        android:title="@string/statusbar_title"
+        android:fragment="com.prime.settings.fragments.StatusBar"
+        android:icon="@drawable/ic_statusbar" />
+
+    <!-- Quick Settings -->
+    <com.prime.settings.preferences.PrimePreference
+        android:key="quicksettings_category"
+        android:title="@string/quicksettings_title"
+        android:fragment="com.prime.settings.fragments.QuickSettings"
+        android:icon="@drawable/ic_quicksettings" />
+
+    <!-- Notifications -->
+    <com.prime.settings.preferences.PrimePreference
+        android:key="notifications_category"
+        android:title="@string/notifications_title"
+        android:fragment="com.prime.settings.fragments.Notifications"
+        android:icon="@drawable/ic_notifications" />
+
+    <!-- Gestures -->
+    <com.prime.settings.preferences.PrimePreference
+        android:key="gestures_category"
+        android:title="@string/gestures_title"
+        android:fragment="com.prime.settings.fragments.PrimeGestures"
+        android:icon="@drawable/ic_gestures" />
+
+    <!-- Misc -->
+    <com.prime.settings.preferences.PrimePreference
+        android:key="misc_category"
+        android:title="@string/misc_title"
+        android:fragment="com.prime.settings.fragments.Miscellaneous"
+        android:icon="@drawable/ic_miscellaneous" />
+
+</PreferenceScreen>

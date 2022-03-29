@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2022
+    SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Prime Elements -->
+    <string name="primeelements_title" translatable="false">Prime Elements</string>
+
+    <!-- Categories -->
+    <string name="themes_title">Themes</string>
+    <string name="lockscreen_title">Lock screen</string>
+    <string name="statusbar_title">Status bar</string>
+    <string name="quicksettings_title">Quick settings</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="misc_title">Miscellaneous</string>
+
+</resources>
