@@ -25,4 +25,15 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/extras_title">
+
+        <ListPreference
+            android:key="torch_power_button_gesture"
+            android:title="@string/torch_power_button_title"
+            android:entries="@array/torch_power_button_entries"
+            android:entryValues="@array/torch_power_button_values" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
