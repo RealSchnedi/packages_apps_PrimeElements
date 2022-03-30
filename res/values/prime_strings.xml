@@ -22,6 +22,7 @@
     <string name="extras_title">Extras</string>
     <string name="tap_title">Double tap</string>
     <string name="udfps_title">Udfps</string>
+    <string name="telephony_title">Telephony icons</string>
 
     <!-- General strings -->
     <string name="default_string">Default</string>
@@ -90,5 +91,9 @@
     <string name="screen_off_animation_title">Screen off animation</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
+
+    <!-- 4G icon -->
+    <string name="fourg_icon_title">4G icon</string>
+    <string name="fourg_icon_summary">Display 4G icon instead of LTE</string>
 
 </resources>
