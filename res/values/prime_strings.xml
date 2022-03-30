@@ -21,4 +21,8 @@
     <string name="wake_on_plug_title">Wake on plug</string>
     <string name="wake_on_plug_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
+    <!-- Status bar items -->
+    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_icons_summary">Hide or show status bar icons</string>
+
 </resources>
