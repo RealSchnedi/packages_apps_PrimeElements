@@ -17,4 +17,10 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
 
+        <Preference
+            android:key="traffic"
+            android:title="@string/network_traffic_title"
+            android:summary="@string/network_traffic_summary"
+            android:fragment="com.prime.settings.fragments.Traffic" />
+
 </PreferenceScreen>
