@@ -17,6 +17,9 @@
     <string name="gestures_title">Gestures</string>
     <string name="misc_title">Miscellaneous</string>
 
+    <!-- Categories II -->
+    <string name="power_title">Power</string>
+
     <!-- Wake on plug -->
     <string name="wake_on_plug_title">Wake on plug</string>
     <string name="wake_on_plug_summary">Turn the screen on when connecting or disconnecting a power source</string>
@@ -24,5 +27,10 @@
     <!-- Status bar items -->
     <string name="status_bar_icons_title">Status bar icons</string>
     <string name="status_bar_icons_summary">Hide or show status bar icons</string>
+
+    <!-- Power menu -->
+    <string name="powermenu_power">Power</string>
+    <string name="powermenu_restart">Restart</string>
+    <string name="powermenu_advanced">Advanced reboot options</string>
 
 </resources>

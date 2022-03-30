@@ -14,4 +14,24 @@
             android:summary="@string/wake_on_plug_summary"
             android:defaultValue="true" />
 
+    <PreferenceCategory
+        android:title="@string/power_title">
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_power"
+            android:title="@string/powermenu_power"
+            android:defaultValue="true" />
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_restart"
+            android:title="@string/powermenu_restart"
+            android:defaultValue="true" />
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_advanced"
+            android:title="@string/powermenu_advanced"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
