@@ -19,6 +19,7 @@
 
     <!-- Categories II -->
     <string name="power_title">Power</string>
+    <string name="extras_title">Extras</string>
 
     <!-- Wake on plug -->
     <string name="wake_on_plug_title">Wake on plug</string>
@@ -32,5 +33,9 @@
     <string name="powermenu_power">Power</string>
     <string name="powermenu_restart">Restart</string>
     <string name="powermenu_advanced">Advanced reboot options</string>
+
+    <!-- Suppress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
 </resources>
