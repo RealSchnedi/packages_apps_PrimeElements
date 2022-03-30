@@ -20,6 +20,7 @@
     <!-- Categories II -->
     <string name="power_title">Power</string>
     <string name="extras_title">Extras</string>
+    <string name="tap_title">Double tap</string>
 
     <!-- Wake on plug -->
     <string name="wake_on_plug_title">Wake on plug</string>
@@ -42,5 +43,9 @@
     <string name="incall_vibrate_connect_title">Vibrate on call connect</string>
     <string name="incall_vibrate_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on call disconnect</string>
+
+    <!-- Double tap lock screen to sleep -->
+    <string name="dt2s_lockscreen_title">Tap on lock screen</string>
+    <string name="dt2s_lockscreen_summary">Double tap on lock screen to put the device to sleep</string>
 
 </resources>
