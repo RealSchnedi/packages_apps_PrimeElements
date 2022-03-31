@@ -12,6 +12,12 @@
         android:title="@string/udfps_title">
 
         <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/udfps_ripple_effect_title"
+            android:summary="@string/udfps_ripple_effect_summary"
+            android:defaultValue="true" />
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
             android:key="fingerprint_success_vib"
             android:title="@string/udfps_success_vib_title"
             android:summary="@string/udfps_success_vib_summary"
