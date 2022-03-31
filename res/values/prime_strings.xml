@@ -131,4 +131,8 @@
     <string name="udfps_ripple_effect_title">Ripple effect</string>
     <string name="udfps_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
+    <!-- Location privacy indicator -->
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show separate indicator when an any app uses location</string>
+
 </resources>
