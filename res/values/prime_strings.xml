@@ -188,4 +188,8 @@
     <string name="qs_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade</string>
+
 </resources>
