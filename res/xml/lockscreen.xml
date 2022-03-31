@@ -12,6 +12,12 @@
         android:title="@string/udfps_title">
 
         <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="udfps_haptic_feedback"
+            android:title="@string/udfps_haptic_feedback_title"
+            android:summary="@string/udfps_haptic_feedback_summary"
+            android:defaultValue="true" />
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
             android:key="enable_ripple_effect"
             android:title="@string/udfps_ripple_effect_title"
             android:summary="@string/udfps_ripple_effect_summary"
