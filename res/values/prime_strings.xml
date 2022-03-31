@@ -24,6 +24,7 @@
     <string name="udfps_title">Udfps</string>
     <string name="telephony_title">Telephony icons</string>
     <string name="battery_title">Battery icon</string>
+    <string name="monet_title">Monet</string>
 
     <!-- General strings -->
     <string name="default_string">Default</string>
@@ -148,5 +149,18 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+
+    <!-- Monet -->
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_white_luminance_user_title">White luminance</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+
+    <!-- Black theme -->
+    <string name="black_theme_title">Black theme</string>
+    <string name="black_theme_summary">Force black background colors</string>
 
 </resources>
