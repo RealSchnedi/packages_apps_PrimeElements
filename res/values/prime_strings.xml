@@ -115,4 +115,8 @@
     <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
     <string name="status_bar_battery_style_text">Text</string>
 
+    <!-- QS battery estimates -->
+    <string name="qs_battery_estimate_title">Battery estimates</string>
+    <string name="qs_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
+
 </resources>

@@ -8,4 +8,15 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quicksettings_title">
 
+    <PreferenceCategory
+        android:title="@string/extras_title">
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_show_battery_estimate"
+            android:title="@string/qs_battery_estimate_title"
+            android:summary="@string/qs_battery_estimate_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
