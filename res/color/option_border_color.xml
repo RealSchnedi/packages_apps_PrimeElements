@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2022
+    SPDX-License-Identifier: Apache-2.0
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_activated="true"
+        android:color="?android:colorAccent" />
+    <item
+        android:state_activated="false"
+        android:alpha="0.24"
+        android:color="?android:colorAccent" />
+    <item
+        android:alpha="0.05"
+        android:color="#5f6368"/>
+</selector>

@@ -30,6 +30,9 @@
 
     <!-- General strings -->
     <string name="default_string">Default</string>
+    <string name="disabled">Disabled</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
 
     <!-- Wake on plug -->
     <string name="wake_on_plug_title">Wake on plug</string>
@@ -203,5 +206,13 @@
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite icon</string>
+
+    <!-- UDFPS animation -->
+    <string name="udfps_animation_title">UDFPS animation effect</string>
+    <string name="udfps_animation_summary">Choose animation effect</string>
 
 </resources>
