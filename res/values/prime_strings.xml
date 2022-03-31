@@ -200,4 +200,8 @@
     <string name="media_artwork_background_blur_radius_title">Blur amount for media artwork</string>
     <string name="media_artwork_background_fade_title">Fade amount for media artwork</string>
 
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+
 </resources>
