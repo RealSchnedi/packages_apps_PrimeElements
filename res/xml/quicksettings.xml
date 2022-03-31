@@ -29,6 +29,39 @@
             android:defaultValue="true" />
 
     <PreferenceCategory
+        android:title="@string/media_title">
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="media_artwork_enabled"
+            android:title="@string/media_artwork_background_title"
+            android:summary="@string/media_artwork_background_summary"
+            android:defaultValue="false" />
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="media_artwork_blur_enabled"
+            android:title="@string/media_artwork_background_blur_title"
+            android:dependency="media_artwork_enabled"
+            android:defaultValue="false" />
+
+        <com.prime.support.preferences.SystemSettingSeekBarPreference
+            android:key="media_artwork_blur_radius"
+            android:title="@string/media_artwork_background_blur_radius_title"
+            android:dependency="media_artwork_blur_enabled"
+            android:defaultValue="1"
+            android:max="25"
+            settings:min="1" />
+
+        <com.prime.support.preferences.SystemSettingSeekBarPreference
+            android:key="media_artwork_fade_percent"
+            android:title="@string/media_artwork_background_fade_title"
+            android:dependency="media_artwork_enabled"
+            android:defaultValue="30"
+            android:max="50"
+            settings:min="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/footer_title">
 
         <com.prime.support.preferences.SystemSettingSwitchPreference

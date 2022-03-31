@@ -26,6 +26,7 @@
     <string name="battery_title">Battery icon</string>
     <string name="monet_title">Monet</string>
     <string name="footer_title">Footer</string>
+    <string name="media_title">Media</string>
 
     <!-- General strings -->
     <string name="default_string">Default</string>
@@ -191,5 +192,12 @@
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade</string>
+
+    <!-- QS media artwork -->
+    <string name="media_artwork_background_title">Artwork media background</string>
+    <string name="media_artwork_background_summary">Set media artwork as notification media background</string>
+    <string name="media_artwork_background_blur_title">Blur media media artwork background</string>
+    <string name="media_artwork_background_blur_radius_title">Blur amount for media artwork</string>
+    <string name="media_artwork_background_fade_title">Fade amount for media artwork</string>
 
 </resources>
