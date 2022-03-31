@@ -57,4 +57,27 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/theming_title">
+
+        <Preference
+            android:key="android.theme.customization.icon_pack"
+            android:title="@string/theme_customization_icon_pack_title"
+            android:summary="@string/theme_customization_icon_pack_summary"
+            android:fragment="com.prime.settings.fragments.StatusBarIcons" />
+
+        <Preference
+            android:key="android.theme.customization.signal_icon"
+            android:title="@string/theme_customization_signal_icon_title"
+            android:summary="@string/theme_customization_signal_icon_summary"
+            android:fragment="com.prime.settings.fragments.SignalIcons"/>
+
+        <Preference
+            android:key="android.theme.customization.wifi_icon"
+            android:title="@string/theme_customization_wifi_icon_title"
+            android:summary="@string/theme_customization_wifi_icon_summary"
+            android:fragment="com.prime.settings.fragments.WifiIcons"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

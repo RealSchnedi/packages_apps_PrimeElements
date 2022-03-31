@@ -27,6 +27,7 @@
     <string name="monet_title">Monet</string>
     <string name="footer_title">Footer</string>
     <string name="media_title">Media</string>
+    <string name="theming_title">Theming</string>
 
     <!-- General strings -->
     <string name="default_string">Default</string>
@@ -214,5 +215,13 @@
     <!-- UDFPS animation -->
     <string name="udfps_animation_title">UDFPS animation effect</string>
     <string name="udfps_animation_summary">Choose animation effect</string>
+
+    <!-- Themes customization -->
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
+    <string name="theme_customization_signal_icon_title">Signal icon style</string>
+    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
 
 </resources>
