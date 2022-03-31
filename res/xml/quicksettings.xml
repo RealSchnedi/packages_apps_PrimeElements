@@ -9,6 +9,17 @@
     android:title="@string/quicksettings_title">
 
     <PreferenceCategory
+        android:title="@string/footer_title">
+
+        <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_warnings"
+            android:title="@string/qs_footer_warnings_title"
+            android:summary="@string/qs_footer_warnings_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/extras_title">
 
         <com.prime.support.preferences.SystemSettingSwitchPreference

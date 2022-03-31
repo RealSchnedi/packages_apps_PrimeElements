@@ -25,6 +25,7 @@
     <string name="telephony_title">Telephony icons</string>
     <string name="battery_title">Battery icon</string>
     <string name="monet_title">Monet</string>
+    <string name="footer_title">Footer</string>
 
     <!-- General strings -->
     <string name="default_string">Default</string>
@@ -162,5 +163,9 @@
     <!-- Black theme -->
     <string name="black_theme_title">Black theme</string>
     <string name="black_theme_summary">Force black background colors</string>
+
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS footer warnings</string>
+    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
 
 </resources>
