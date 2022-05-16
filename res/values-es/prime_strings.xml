@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2022
+    SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Prime Elements -->
+    <!-- Categories -->
+    <string name="themes_title">Temas</string>
+    <string name="lockscreen_title">Pantalla de bloqueo</string>
+    <string name="statusbar_title">Barra de estado</string>
+    <string name="quicksettings_title">Ajustes rápidos</string>
+    <string name="notifications_title">Notificaciones</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="misc_title">Miscelánea</string>
+    <!-- Categories II -->
+    <string name="power_title">Menú de encendido</string>
+    <string name="extras_title">Extras</string>
+    <string name="tap_title">Doble toque</string>
+    <string name="udfps_title">Huella</string>
+    <string name="telephony_title">Iconos de telefonía</string>
+    <string name="battery_title">Icono de batería</string>
+    <string name="monet_title">Monet</string>
+    <string name="footer_title">Pie de página</string>
+    <string name="media_title">Multimedia</string>
+    <string name="theming_title">Personalización</string>
+    <!-- General strings -->
+    <string name="default_string">Predeterminado</string>
+    <string name="disabled">Desactivado</string>
+    <string name="enable">Activar</string>
+    <string name="disable">Desactivar</string>
+    <!-- Wake on plug -->
+    <string name="wake_on_plug_title">Despertar al conectar</string>
+    <string name="wake_on_plug_summary">Encender la pantalla al conectar o desconecta el cargador</string>
+    <!-- Status bar items -->
+    <string name="status_bar_icons_title">Iconos de la barra de estado</string>
+    <string name="status_bar_icons_summary">Ocultar/Mostrar iconos de la barra de estado</string>
+    <!-- Power menu -->
+    <string name="powermenu_power">Encender/Apagar</string>
+    <string name="powermenu_restart">Reiniciar</string>
+    <string name="powermenu_advanced">Reinicio avanzado</string>
+    <!-- Suppress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Notificaciones con pantalla encendida</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproducir sonido y vibrar al recibir notificaciones cuando la pantalla esté encendida</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibrate_connect_title">Vibrar al contestar llamada</string>
+    <string name="incall_vibrate_wait_title">Vibrar con llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al terminar llamada</string>
+    <!-- Double tap lock screen to sleep -->
+    <string name="dt2s_lockscreen_title">Toque en pantalla de bloqueo</string>
+    <string name="dt2s_lockscreen_summary">Doble toque en pantalla de bloqueo para apagar pantalla</string>
+    <!-- Double tap status bar to sleep -->
+    <string name="dt2s_statusbar_title">Toque en barra de estado</string>
+    <string name="dt2s_statusbar_summary">Doble toque en la barra de estado para apagar pantalla</string>
+    <!-- Toggle torch when screen off -->
+    <string name="torch_power_button_title">Linterna con pantalla apagada</string>
+    <string name="torch_power_button_none">Desactivado</string>
+    <string name="torch_power_button_dt">Doble pulsación del botón de encendido</string>
+    <string name="torch_power_button_lp">Pulsación larga del botón de Inicio</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Indicador de tráfico de red</string>
+    <string name="network_traffic_summary">Personalizar los indicadores de tráfico</string>
+    <string name="network_traffic_location_title">Posición del indicador</string>
+    <string name="network_traffic_disabled">Desactivado</string>
+    <string name="network_traffic_statusbar">Barra de estado</string>
+    <string name="network_traffic_qsheader">Cabecera de ajustes rápidos</string>
+    <string name="network_traffic_autohide_threshold_title">Tráfico de red mínimo para ocultar</string>
+    <string name="network_traffic_arrow_title">Mostrar flechas</string>
+    <string name="network_traffic_arrow_summary">Mostrar flechas</string>
+    <string name="network_traffic_type_title">Selecciona tipo de actividad</string>
+    <string name="network_traffic_combined">Combinada (Subida + Descarga)</string>
+    <string name="network_traffic_dynamic">Dinámico</string>
+    <string name="network_traffic_up">Subida</string>
+    <string name="network_traffic_down">Descarga</string>
+    <string name="network_traffic_all">Ambas</string>
+    <string name="network_traffic_font_size_title">Tamaño de la fuente</string>
+    <!-- Udfps authentication / error vibration -->
+    <string name="udfps_success_vib_title">Vibrar al verificar</string>
+    <string name="udfps_success_vib_summary">Vibrar al verificar correctamente la huella</string>
+    <string name="udfps_error_vib_title">Vibrar al fallar</string>
+    <string name="udfps_error_vib_summary">Vibrar al verificar incorrectamente la huella</string>
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Animación al apagar pantalla</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Escala</string>
+    <!-- 4G icon -->
+    <string name="fourg_icon_title">Icono 4G</string>
+    <string name="fourg_icon_summary">Usar icono 4G en lugar de LTE</string>
+    <!-- Old mobile type icons -->
+    <string name="old_mobiletype_title">Icono pequeño de red móvil</string>
+    <string name="old_mobiletype_summary">Mostrar el icono de señal en la parte superior del indicador de señal</string>
+    <!-- Status bar battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentaje de la batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <!-- Status bar battery style -->
+    <string name="status_bar_battery_style_title">Estilo del icono</string>
+    <string name="status_bar_battery_style_port">Retrato</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (punteado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (relleno)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <!-- QS battery estimates -->
+    <string name="qs_battery_estimate_title">Batería estimada</string>
+    <string name="qs_battery_estimate_summary">Mostrar duración junto al icono</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Animación de carga</string>
+    <string name="charging_animation_summary">Mostrar una animación cuando se conecte el cargador</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Configuración USB</string>
+    <string name="usb_default_config_summary">Elige el comportamiento por defecto cuando se conecta un dispositivo USB</string>
+    <!-- Udfps ripple effect -->
+    <string name="udfps_ripple_effect_title">Efecto de desbloqueo</string>
+    <string name="udfps_ripple_effect_summary">Mostrar efecto al desbloquear con la huella</string>
+    <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Indicador de micrófono y cámara</string>
+    <string name="mic_camera_privacy_indicator_summary">Mostrar indicador por separado cuando una aplicación use el micrófono o la cámara</string>
+    <string name="location_privacy_indicator_title">Indicador de ubicación</string>
+    <string name="location_privacy_indicator_summary">Mostrar indicador por separado cuando una aplicación use la localización</string>
+    <!-- Combined signal icons -->
+    <string name="combined_status_bar_signal_icons_title">Combinar iconos de señal</string>
+    <string name="combined_status_bar_signal_icons_summary">Habilitar iconos de señal combinados en la barra de estado..\nRequiere reiniciar IU del sistema</string>
+    <!-- UDFPS haptic feedback -->
+    <string name="udfps_haptic_feedback_title">Respuesta háptica</string>
+    <string name="udfps_haptic_feedback_summary">Vibrar al tocar el icono de huella</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Icono de datos desactivados</string>
+    <string name="data_disabled_icon_summary">Mostar una \"X\" junto a la barra de señal cuando los datos estén desactivados</string>
+    <!-- Monet -->
+    <string name="monet_engine_custom_color_title">Color personalizado</string>
+    <string name="monet_engine_custom_color_summary">Usar color personalizado en lugar de los colores del fondo de pantalla</string>
+    <string name="monet_engine_color_override_title">Color</string>
+    <string name="monet_engine_white_luminance_user_title">Luminosidad</string>
+    <string name="monet_engine_accurate_shades_title">Usar tonos más precisos</string>
+    <string name="monet_engine_chroma_factor_title">Factor cromático</string>
+    <string name="monet_engine_linear_lightness_title">Usar luminosidad lineal</string>
+    <!-- Black theme -->
+    <string name="black_theme_title">Tema negro</string>
+    <string name="black_theme_summary">Forzar colores de fondo negro</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Advertencias al pie de página</string>
+    <string name="qs_footer_warnings_summary">Mostrar una advertencia en la parte inferior del panel de ajustes rápidos</string>
+    <!-- QS footer icons -->
+    <string name="qs_footer_users_icon_title">Icono de cuenta de usuario</string>
+    <string name="qs_footer_users_icon_summary">Mostrar icono de accesibilidad de multiusuario cuando esté disponible</string>
+    <string name="qs_footer_edit_icon_title">Icono de edición de mosaicos</string>
+    <string name="qs_footer_power_menu_title">Acceso al menú de apagado</string>
+    <string name="qs_footer_settings_icon_title">Acceso a los ajustes</string>
+    <!-- QS brightness slider -->
+    <string name="qs_brightness_slider_title">Barra de brillo</string>
+    <string name="qs_brightness_slider_never">No mostrar</string>
+    <string name="qs_brightness_slider_expanded">Al expandir</string>
+    <string name="qs_brightness_slider_always">Siempre</string>
+    <string name="qs_brightness_slider_position_title">Posición</string>
+    <string name="qs_brightness_slider_position_top">Arriba</string>
+    <string name="qs_brightness_slider_position_bottom">Abajo</string>
+    <!-- QS auto brightness icon -->
+    <string name="qs_auto_brightness_title">Icono de brillo automático</string>
+    <string name="qs_auto_brightness_summary">Mostrar el icono de brillo automático junto a la barra</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Título de notificaciones</string>
+    <string name="notification_headers_summary">Mostrar títulos en el panel de notificaciones</string>
+    <!-- QS media artwork -->
+    <string name="media_artwork_background_title">Carátula como fondo</string>
+    <string name="media_artwork_background_summary">Establecer la carátula como fondo de notificación</string>
+    <string name="media_artwork_background_blur_title">Desenfocar fondo</string>
+    <string name="media_artwork_background_blur_radius_title">Nivel de desenfoque</string>
+    <string name="media_artwork_background_fade_title">Nivel de desvanecimiento</string>
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Batería del dispositivo bluetooth</string>
+    <string name="bluetooth_battery_summary">Mostrar el estado de batería de los dispositivos bluetooth conectado</string>
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">Icono</string>
+    <string name="udfps_icon_picker_summary">Elige tu icono favorito</string>
+    <!-- UDFPS animation -->
+    <string name="udfps_animation_title">Animación</string>
+    <string name="udfps_animation_summary">Elige tu animación favorita</string>
+    <!-- Themes customization -->
+    <string name="theme_customization_icon_pack_title">Paquete de iconos</string>
+    <string name="theme_customization_icon_pack_summary">Seleccionar paquete de iconos personalizado</string>
+    <string name="theme_customization_signal_icon_title">Estilo de icono de señal</string>
+    <string name="theme_customization_signal_icon_summary">Seleccionar un icono de cobertura personalizado</string>
+    <string name="theme_customization_wifi_icon_title">Estilo de icono WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Establecer icono de WiFi personalizado</string>
+    <!-- Hide status bar on lock screen -->
+    <string name="hide_lockscreen_status_bar_title">Barra de estado</string>
+    <string name="hide_lockscreen_status_bar_summary">Ocultar la barra de estado</string>
+    <!-- Clear all notification button -->
+    <string name="notification_material_dismiss_title">Botón de borrar notificaciones</string>
+    <string name="notification_material_dismiss_summary">Reemplazar el texto de borrar notificaciones con un botón</string>
+    <string name="notification_material_dismiss_style_title">Estilo</string>
+    <string name="notification_material_dismiss_bgstyle_title">Fondo</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Versión anterior de aplicación</string>
+    <string name="app_downgrade_summary">Permite la instalación de versiones anteriores de ua aplicación. Ten en cuenta que esto podría producir bloqueos y corrupción de datos</string>
+    <!-- Ignore window secure flags -->
+    <string name="ignore_window_secure_title">Ignorar limitadores de ventanas seguras</string>
+    <string name="ignore_window_secure_summary">Elimina los límites de captura y grabación de pantalla en todas las aplicaciones. Algunas aplicaciones son reemplazadas por áreas negras</string>
+    <!-- AOSP gestures -->
+    <string name="aosp_gesture_title">Gestos del sistema</string>
+    <string name="aosp_gesture_summary">Gestos de Android</string>
+</resources>
