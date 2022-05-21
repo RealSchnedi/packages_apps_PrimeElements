@@ -8,6 +8,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/gestures_title">
 
+        <Preference
+            android:key="aosp_gesture"
+            android:title="@string/aosp_gesture_title"
+            android:summary="@string/aosp_gesture_summary"
+            android:fragment="com.android.settings.gestures.GestureSettings"
+            settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController" />
+
    <PreferenceCategory
         android:title="@string/tap_title">
 
