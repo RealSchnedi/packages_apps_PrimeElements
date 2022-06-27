@@ -119,4 +119,8 @@
     <string name="qs_battery_estimate_title">Battery estimates</string>
     <string name="qs_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
 
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+
 </resources>

@@ -14,6 +14,12 @@
             android:summary="@string/wake_on_plug_summary"
             android:defaultValue="true" />
 
+        <com.prime.support.preferences.SystemSettingSwitchPreference
+            android:key="charging_animation"
+            android:title="@string/charging_animation_title"
+            android:summary="@string/charging_animation_summary"
+            android:defaultValue="true" />
+
     <PreferenceCategory
         android:title="@string/power_title">
 
